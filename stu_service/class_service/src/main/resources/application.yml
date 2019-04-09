@@ -1,0 +1,16 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    username: root
+    password: 123
+    url: jdbc:mysql:///stu_class
+    driver-class-name: com.mysql.jdbc.Driver
+dubbo:
+  application:
+    name: classes_Service
+  registry:
+    address: zookeeper://192.168.72.128:2181
+
+
+
